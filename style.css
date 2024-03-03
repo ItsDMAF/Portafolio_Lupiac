@@ -5,6 +5,8 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+/* NAVBAR*/
+
 .navbar{
     background: #6C754F;
     height: 80px;
@@ -69,7 +71,7 @@
 }
 
 .navbar__links:hover{
-    color: #d2d2d2;
+    color: linear-gradient(to top, #adadad  0%, #e8e8e8 100%)#adadad;
     transition: all 0.3s ease;
 }
 
@@ -172,4 +174,41 @@
         transform: translateY(-8px) rotate(-45deg);
 
     }
+}
+
+/*INTRO*/
+
+.title_container {
+    background-image: url('img/BG-hero.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 370px; 
+    text-align: center; 
+    color: linear-gradient(to top, #adadad  0%, #e8e8e8 100%)hite; 
+    padding-top: 50px;
+}
+
+/* MAIN*/
+.main__container {
+    text-align: center; /* Center align the content */
+}
+
+.art__container {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
+    justify-content: space-around; /* Center items with equal space around */
+}
+
+.art {
+    width: 45%; /* Each art item takes 45% width */
+    margin: 10px; /* Adjust spacing between art items */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.art img {
+    max-width: 100%;
+    height: auto;
 }
