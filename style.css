@@ -182,9 +182,9 @@
     background-image: url('img/BG-hero.png');
     background-size: cover; 
     background-position: center; 
-    height: 370px; 
+    height: 365px; 
     text-align: center; 
-    color: linear-gradient(to top, #adadad  0%, #e8e8e8 100%)hite; 
+    color: linear-gradient(to top, #adadad  0%, #e8e8e8 100%); 
     padding-top: 50px;
 }
 
@@ -200,7 +200,7 @@
 }
 
 .art {
-    width: 45%; /* Each art item takes 45% width */
+    width: 35%; /* Each art item takes 45% width */
     margin: 10px; /* Adjust spacing between art items */
     background-color: #f9f9f9;
     padding: 20px;
