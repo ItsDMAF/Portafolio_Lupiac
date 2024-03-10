@@ -18,6 +18,7 @@
     top: 0;
     z-index: 999;
 }
+
 .navbar__container{
     display: flex;
     justify-content: space-between;
@@ -28,6 +29,7 @@
     margin: 0 auto;
     padding: 0 50px;
 }
+
 #navbar__logo{
     background-color: #6C754F;
     background-image: linear-gradient(to top, #adadad  0%, #e8e8e8 100%);
@@ -42,18 +44,22 @@
     text-decoration: none;
     font-size: 2rem;
 }
+
 .fa-solid fa-utensils{
     margin-right: 0.5rem;
 }
+
 .navbar__menu{
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
 }
+
 .navbar__item{
     height: 80px;
 }
+
 .navbar__links{
     color: #2b2b2b;
     display: flex;
@@ -63,6 +69,7 @@
     padding: 0 1rem;
     height: 100%;
 }
+
 .navbar__links:hover{
     color: linear-gradient(to top, #adadad  0%, #e8e8e8 100%)#adadad;
     transition: all 0.3s ease;
