@@ -5,7 +5,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-/* NAVBAR*/
+/*TODO EL CSS PARA EL NAVBAR*/
 
 .navbar{
     background: #6C754F;
@@ -174,7 +174,7 @@
     }
 }
 
-/*INTRO*/
+/*TODO EL CSS PARA EL INTRO*/
 
 .title_container {
     background-image: url('img/BG-hero.png');
@@ -186,20 +186,20 @@
     padding-top: 50px;
 }
 
-/* MAIN*/
+/*TODO EL CSS PARA EL MAIN*/
 .main__container {
-    text-align: center; /* Center align the content */
+    text-align: center; 
 }
 
 .art__container {
     display: flex;
-    flex-wrap: wrap; /* Enable wrapping */
-    justify-content: space-around; /* Center items with equal space around */
+    flex-wrap: wrap; 
+    justify-content: space-around; 
 }
 
 .art {
-    width: 35%; /* Each art item takes 45% width */
-    margin: 10px; /* Adjust spacing between art items */
+    width: 35%;
+    margin: 10px; 
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 5px;
