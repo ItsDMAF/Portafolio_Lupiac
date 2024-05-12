@@ -1,11 +1,10 @@
-const menu = document.querySelector('#mobile-menu');
-const menuLinks = document.querySelector('.navbar__menu');
+function openPopup(imageUrl) {
+    var popup = document.getElementById("popup");
+    var popupImg = document.getElementById("popupImg");
+    popupImg.src = imageUrl;
+    popup.style.display = "block";
+}
 
-menu.addEventListener('click', function() {
-    menu.classList.toggle('is-active');
-    menuLinks.classList.toggle('active');
-});
-
-function redirectToMenu(location) {
-    window.location.href = location + ".html";
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
 }
