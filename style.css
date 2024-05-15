@@ -113,3 +113,9 @@ body, html {
     list-style-type: none;
 }
 
+.copyright__container p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(37, 37, 37);
+    font-size: 15px;
+}
+
