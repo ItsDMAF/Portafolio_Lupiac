@@ -88,3 +88,8 @@ body, html {
     text-decoration: none;
     cursor: pointer;
 }
+
+.navbar__item a {
+    color:rgb(5, 117, 53);
+    font-size:35px;
+}
