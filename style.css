@@ -16,6 +16,7 @@ body, html {
 }
 
 .left h2 {
+    color: rgb(5, 117, 53);
     font-size: 90px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: bold;
@@ -97,13 +98,14 @@ body, html {
 
 .navbar__item a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(5, 117, 53);
+    color:black;
     text-decoration: none;
     font-size:60px;
 }
 
 .navbar__item a:hover{
-    transform: scale(1.025);
+    color: rgb(5, 117, 53);
+    font-size: 70px;
     transition: all 0.3s ease;
 }
 
