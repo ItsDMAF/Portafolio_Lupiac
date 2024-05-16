@@ -7,12 +7,14 @@ body, html {
 .container {
     display: flex;
     height: 100%;
+    position: relative;
 }
 
 .left {
     width: 30%; 
     background-color: #f0f0f0; 
     padding: 20px;
+    position: relative;
 }
 
 .left h2 {
@@ -30,7 +32,7 @@ body, html {
 }
 
 .separator {
-    border-left: 2px solid black;
+    border-left: 4px solid black;
     height: calc(100% - 40px);
     margin: 20px;
 }
@@ -48,16 +50,15 @@ body, html {
     margin-bottom: 15px;
 }
 
-.image-container :hover{
+.image-container :hover {
     transform: scale(1.025);
     transition: all 0.3s ease;
-    
 }
 
 .art-section {
     display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 .popup {
@@ -96,14 +97,14 @@ body, html {
     cursor: pointer;
 }
 
-.navbar__item a{
+.navbar__item a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:black;
+    color: black;
     text-decoration: none;
-    font-size:60px;
+    font-size: 60px;
 }
 
-.navbar__item a:hover{
+.navbar__item a:hover {
     color: rgb(5, 117, 53);
     font-size: 70px;
     transition: all 0.3s ease;
@@ -113,9 +114,40 @@ body, html {
     list-style-type: none;
 }
 
-.copyright__container p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(37, 37, 37);
-    font-size: 15px;
+.copyright__container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
 }
 
+.copyright__container p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+}
+
+
+.service-items {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.service-items img {
+    margin-right: 20px; 
+    width: 100px;
+    height: auto; 
+}
+
+.servicios h3 {
+    margin: 0 0 10px 0;
+    font-size: 35px;
+}
+
+.servicios p {
+    margin: 0; 
+    font-size: 20px;
+}

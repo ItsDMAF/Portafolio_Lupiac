@@ -3,42 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
+    <title>LUPIAC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-         <!--Navbar-->
-         <nav class="navbar">
-            <div class="navbar__container">
-                <a href="/" id="navbar__logo">Lupiac</a>
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="portafolio.html" class="navbar__links">Portafolio</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="servicios.html" class="navbar__links">Servicios</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="sobre.html" class="navbar__links">Acerca de mi</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="contactos.html" class="navbar__links">Contactos</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="https://www.instagram.com/ghostly_one7/" class="navbar__links" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>   
-                </ul>
+    <div class="container">
+        <div class="left">
+            <h2>LUPIAC</h2>
+            <ul class="navbar">
+                <li class="navbar__item">
+                    <a href="/portafolio.html" class="navbar__links">Portafolio</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="servicios.html" class="navbar__links">Servicios</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="sobre.html" class="navbar__links">Acerca de mi</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contactos.html" class="navbar__links">Contactos</a>
+                </li>
+            </ul>
+            <div class="copyright__container">
+                <p>© Esther 2024. All rights reserved.</p>
             </div>
-        </nav>
-        <div class="title_container">
-            <h1>Esther Lupiac</h1>
-            <h3>Portafolio</h3>
         </div>
+        <div class="separator"></div>
+        <div class="right">
+            <div class="scrollable-content">
+                <div class="service-items">
+                    <img src="" alt="1 Photo">
+                    <div class="servicios">
+                        <h3>Ilustraciones</h3>
+                        <p>Realización de Ilustraciones tanto digitales como
+                            tradicionales, Retratos, fondos, arte conceptual, etc.</p>
+                    </div>
+                </div>
+                <div class="service-items">
+                    <img src="" alt="2 Photo">
+                    <div class="servicios">
+                        <h3>Animación 2D</h3>
+                        <p>Realización de animación tradicional por medio de
+                            keyframes, y animación vectorial utilizando rigs 2D,
+                            así mismo puedo realizar storyboards y animatics.</p>
+                    </div>
+                </div>
+                <div class="service-items">
+                    <img src="" alt="3 Photo">
+                    <div class="servicios">
+                        <h3>Modelado y Texturizado 3D</h3>
+                        <p>RElaboración de modelos low-poly y con estructura
+                            básica utilizando Maya, texturizado con Substance
+                            Painter y Shading nodes.</p>
+                    </div>
+                </div>
+                <div class="service-items">
+                    <img src="" alt="4 Photo">
+                    <div class="servicios">
+                        <h3>Edición de video</h3>
+                        <p>Edición de videos para youtube, noticias y reels,
+                            etc., utilizando Premier Pro y After Effects.</p>
+                    </div>
+                </div>
+                <div class="service-items">
+                    <img src="" alt="5 Photo">
+                    <div class="servicios">
+                        <h3>Programación Web</h3>
+                        <p>Realización de páginas web utilizando HTML y CSS
+                            aplicando los conceptos de jerarquía visual y
+                            Conceptos de UX y UI.</p>
+                    </div>
+                </div>
+                <div class="service-items">
+                    <img src="" alt="6 Photo">
+                    <div class="servicios">
+                        <h3>Guiones cinematográficos y animatics</h3>
+                        <p>Elaboración de guiones técnicos, literarios, guiones
+                            técnicos para animación, storyboards y Animatics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <img id="popupImg" class="popup-content" src="">
+    </div>
 </body>
+<script src="app.js"></script>
 </html>
