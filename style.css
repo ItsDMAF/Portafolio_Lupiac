@@ -106,8 +106,9 @@ body, html {
 
 .navbar__item a:hover {
     color: rgb(5, 117, 53);
-    font-size: 70px;
+    font-size: 50px;
     transition: all 0.3s ease;
+
 }
 
 .navbar__item {
