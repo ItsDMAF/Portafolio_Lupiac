@@ -20,6 +20,8 @@ body, html {
 .left h2 {
     color: rgb(5, 117, 53);
     font-size: 70px;
+    padding-top: -20px;
+    padding-left:  30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: bold;
 }
