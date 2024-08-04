@@ -17,7 +17,7 @@ body, html {
     position: relative;
 }
 
-.left h2 {
+.left h1 {
     color: rgb(5, 117, 53);
     font-size: 70px;
     padding-top: -20px;
@@ -37,6 +37,13 @@ body, html {
     border-left: 4px solid black;
     height: calc(100% - 40px);
     margin: 20px;
+}
+
+.scrollable-content h1 {
+    color: rgb(5, 117, 53);
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
 }
 
 .image-container {
