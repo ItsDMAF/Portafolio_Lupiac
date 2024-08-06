@@ -10,6 +10,7 @@ body, html {
     position: relative;
 }
 
+/*LEFT SIDE OF THE SCREEN*/
 .left {
     width: 30%; 
     background-color: #ffffff; 
@@ -26,6 +27,7 @@ body, html {
     font-style: bold;
 }
 
+/*RIGHT SIDE OF THE SCREEN*/
 .right {
     flex: 1;
     overflow-y: auto;
@@ -141,7 +143,6 @@ body, html {
     font-size: 20px;
 }
 
-
 .service-items {
     display: flex;
     align-items: flex-start;
@@ -168,3 +169,16 @@ body, html {
     margin: 0; 
     font-size: 18px;
 }
+
+.sobre-title img {
+    width: 20%;
+}
+
+.sobre-title h1 {
+    color: rgb(5, 117, 53);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+}
+

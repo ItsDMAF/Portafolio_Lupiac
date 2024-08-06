@@ -3,42 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mi</title>
+    <title>LUPIAC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-         <!--Navbar-->
-         <nav class="navbar">
-            <div class="navbar__container">
-                <a href="/" id="navbar__logo">Lupiac</a>
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <a href="portafolio.html" class="navbar__links">Portafolio</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="servicios.html" class="navbar__links">Servicios</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="sobre.html" class="navbar__links">Acerca de mi</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="contactos.html" class="navbar__links">Contactos</a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="https://www.instagram.com/ghostly_one7/" class="navbar__links" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>   
-                </ul>
+    <div class="container">
+        <div class="left">
+            <h1>LUPIAC</h1>
+            <ul class="navbar">
+                <li class="navbar__item">
+                    <a href="/portafolio.html" class="navbar__links">Portafolio</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="servicios.html" class="navbar__links">Servicios</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="sobre.html" class="navbar__links">Acerca de mi</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="contactos.html" class="navbar__links">Contactos</a>
+                </li>
+            </ul>
+            <div class="copyright__container">
+                <p>Esther 2024.</p>
             </div>
-        </nav>
-        <div class="title_container">
-            <h1>Esther Lupiac</h1>
-            <h3>Portafolio</h3>
         </div>
+        <div class="separator"></div>
+        <div class="right">
+            <div class="sobre-container">
+                <div class="sobre-title">
+                    <h1>ESTHER</h1>
+                    <img src="assets/Profile-imagen.jpeg" alt="profil">
+                </div>
+                <div class="sobre-description">
+                    <h2>Hola! Es un placer</h2>
+                    <p>Me llamo Esther Hernández Lupiac y soy estudiante de animación digital 
+                        y diseño interactivo, soy una artista bastante apasionada por la creación 
+                        y la creatividad detrás de las cosas. Por naturaleza, soy super detallista. 
+                        Me encanta escuchar música, hacer manualidades lo que me lleva a la experimentación 
+                        de nuevos medios de arte. Espero que te gusten mis dibujos y no dudes en contactarme!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <img id="popupImg" class="popup-content" src="">
+    </div>
 </body>
+<script src="app.js"></script>
 </html>
