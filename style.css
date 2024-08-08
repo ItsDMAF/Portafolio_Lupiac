@@ -182,3 +182,23 @@ body, html {
     font-style: bold;
 }
 
+.sobre-container {
+    display: flex;
+    height: 100%;
+    position: relative; 
+}
+
+.sobre-title {
+    width: 30%; 
+    background-color: #ffffff; 
+    padding: 20px;
+    position: relative;
+
+}
+
+.sobre-description {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
