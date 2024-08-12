@@ -262,3 +262,11 @@ button {
     display: block;
     align-items: center;
 }
+
+.contactos-contairner a{
+    color: #fff;
+    font-style: bold;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 5px;
+}
