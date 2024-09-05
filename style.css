@@ -214,6 +214,23 @@ html {
 
 }
 
+.email-container {
+    display: flex;
+    align-items: center;
+}
+
+.email-container i {
+    margin-right: 10px; /* Adds some space between the icon and the email text */
+    font-size: 20px; /* Adjust the size of the icon */
+}
+
+.email-container p {
+    font-size: 30px; /* Match the text size to the icon */
+    margin: 0; /* Ensure there is no additional margin */
+}
+
+
+
 .sobre-description {
     flex: 1;
     overflow-y: auto;
@@ -247,6 +264,7 @@ textarea {
     resize: none;
     width: 47%;
     border: 3px solid #000000;
+    font-size: 20px;
 }
 
 #mensajearea {
