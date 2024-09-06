@@ -8,3 +8,16 @@ function openPopup(imageUrl) {
 function closePopup() {
     document.getElementById("popup").style.display = "none";
 }
+
+function sendemail (){
+    var name = document.getElementById("nombrearea");
+    var email = document.getElementById("emailarea");
+    var message = document.getElementById("mensajearea");
+    var nameFlag = true;
+
+    if (emailFlag == true ){
+        //Send message
+    } else {
+        //Display message incorrect email.
+    }
+}

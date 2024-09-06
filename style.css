@@ -1,3 +1,4 @@
+/* Global Styles */
 body,
 html {
     margin: 0;
@@ -11,7 +12,7 @@ html {
     position: relative;
 }
 
-/*LEFT SIDE OF THE SCREEN*/
+/* LEFT SIDE OF THE SCREEN */
 .left {
     width: 30%;
     background-color: #ffffff;
@@ -22,13 +23,12 @@ html {
 .left h1 {
     color: rgb(5, 117, 53);
     font-size: 80px;
-    padding-top: -20px;
     padding-left: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: bold;
 }
 
-/*RIGHT SIDE OF THE SCREEN*/
+/* RIGHT SIDE OF THE SCREEN */
 .right {
     flex: 1;
     overflow-y: auto;
@@ -50,6 +50,7 @@ html {
     font-style: bold;
 }
 
+/* Image Container */
 .image-container {
     width: calc(50% - 10px);
     padding: 8px;
@@ -64,17 +65,19 @@ html {
     border: 2px solid #000000;
 }
 
-.image-container :hover {
+.image-container img:hover {
     transform: scale(1.025);
     transition: all 0.3s ease;
 }
 
+/* Art Section */
 .art-section {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
 }
 
+/* Popup */
 .popup {
     display: none;
     position: fixed;
@@ -111,6 +114,11 @@ html {
     cursor: pointer;
 }
 
+/* Navigation Bar */
+.navbar__item {
+    list-style-type: none;
+}
+
 .navbar__item a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
@@ -122,13 +130,9 @@ html {
     color: rgb(5, 117, 53);
     font-size: 50px;
     transition: all 0.3s ease;
-
 }
 
-.navbar__item {
-    list-style-type: none;
-}
-
+/* Footer */
 .copyright__container {
     position: absolute;
     bottom: 20px;
@@ -144,6 +148,7 @@ html {
     font-size: 20px;
 }
 
+/* Services Section */
 .service-items {
     display: flex;
     align-items: flex-start;
@@ -171,26 +176,38 @@ html {
     font-size: 18px;
 }
 
+/* About Me Section */
+.sobre-title {
+    width: 40%;
+    background-color: #ffffff;
+    padding: 20px;
+    position: relative;
+}
+
 .sobre-title img {
     width: 100%;
     border: 5px solid #000000;
-
 }
 
 .sobre-title h1 {
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 5px 0;
     font-size: 75px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: bold;
 }
 
+.sobre-description {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
 .sobre-description h2 {
     font-size: 35px;
-    margin-top: 41px;
-    margin-bottom: -16px;
+    margin: 41px 0 -16px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -206,38 +223,7 @@ html {
     position: relative;
 }
 
-.sobre-title {
-    width: 40%;
-    background-color: #ffffff;
-    padding: 20px;
-    position: relative;
-
-}
-
-.email-container {
-    display: flex;
-    align-items: center;
-}
-
-.email-container i {
-    margin-right: 10px; /* Adds some space between the icon and the email text */
-    font-size: 20px; /* Adjust the size of the icon */
-}
-
-.email-container p {
-    font-size: 30px; /* Match the text size to the icon */
-    margin: 0; /* Ensure there is no additional margin */
-}
-
-
-
-.sobre-description {
-    flex: 1;
-    overflow-y: auto;
-    background-color: #ffffff;
-    padding: 20px;
-}
-
+/* Contact Page */
 .contactos-contairner {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -252,7 +238,7 @@ html {
 }
 
 .contactos-contairner p {
-    margin-top: 0px;
+    margin-top: 0;
     font-size: 20px;
 }
 
@@ -273,28 +259,52 @@ textarea {
 }
 
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     height: 40px;
     width: 97%;
     background-color: #000000;
     color: #ffffff;
-    display: block;
-    align-items: center;
 }
 
 button:hover {
     color: #ffffff;
-    background-color: rgb(3, 65, 30);
+    background-color: rgb(36, 82, 56);
 }
 
-.contactos-contairner a{
+/* Email Container */
+.email-container {
+    display: flex;
+    align-items: center;
+}
+
+.email-container i {
+    margin-right: 10px; /* Adds some space between the icon and the email text */
+    font-size: 20px; /* Adjust the size of the icon */
+}
+
+.email-container p {
+    font-size: 30px; /* Match the text size to the icon */
+    margin: 0; /* Ensure there is no additional margin */
+}
+
+/* Links */
+.contactos-contairner a {
     color: #fff;
-    font-style: bold;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 40px;
     text-decoration: none;
     margin-top: 5px;
 }
 
 .contactos-contairner a:hover {
     color: #ffffff;
-    background-color: rgb(3, 65, 30);
+    background-color: rgb(36, 82, 56);
+}
+
+/* Icon Hover Effects */
+.contactos-contairner i:hover {
+    color: #265131;
 }
