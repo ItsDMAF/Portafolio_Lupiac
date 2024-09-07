@@ -84,6 +84,8 @@ html {
 .popup {
     display: none;
     position: fixed;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
     z-index: 1;
     left: 0;
     top: 0;
@@ -150,30 +152,38 @@ html {
     font-size: 20px;
 }
 
+/* Services Section */
 .service-items {
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
+    align-items: center; /* Centers vertically */
+    justify-content: space-between; /* Adds equal spacing between items */
+    margin-bottom: 3px;
+    padding: 10px 0; /* Add some padding for better spacing */
 }
 
 .service-items i {
-    margin-right: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 50px;
-    width: 100px;
+    margin-right: 20px; /* Space between icon and text */
+    font-size: 50px; /* Icon size */
+    width: 50px; /* Ensures equal width for icons */
     height: auto;
+    display: flex;
+    justify-content: center; /* Center icon horizontally */
+    align-items: center; /* Center icon vertically */
 }
 
-.servicios h3 {
+.servicios h3, 
+.servicios p {
+    margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0 0 5px 0;
+}
+
+/* Optional: Adjust h3/p styling to fit better with icons */
+.servicios h3 {
     font-size: 22px;
+    margin-bottom: 5px;
 }
 
 .servicios p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0;
     font-size: 18px;
 }
 
@@ -303,24 +313,4 @@ button:hover {
 .contactos-contairner i:hover {
     color: #265131;
 
-}
-
-@media only screen and (max-width: 768px) {
-    .left {
-        width: 100%; /* Full width for mobile */
-        padding: 10px;
-    }
-
-    .right {
-        padding: 10px;
-    }
-
-    .sobre-title {
-        width: 100%; /* Stack elements on smaller screens */
-        margin-bottom: 20px;
-    }
-
-    textarea, button {
-        width: 100%; /* Ensure full-width text area and button on mobile */
-    }
 }

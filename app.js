@@ -2,7 +2,7 @@ function openPopup(imageUrl) {
     var popup = document.getElementById("popup");
     var popupImg = document.getElementById("popupImg");
     popupImg.src = imageUrl;
-    popup.style.display = "block";
+    popup.style.display = "flex";
 }
 
 function closePopup() {
