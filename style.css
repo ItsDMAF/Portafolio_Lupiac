@@ -1,0 +1,33 @@
+body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main--container {
+    display: flex;
+}
+
+.navbar--container {
+    display: inline-block;
+    width: 40%;
+    height: max-content;
+    background-color: aliceblue;
+}
+
+.navbar--option {
+    align-items: center;
+}
+
+.navbar--option a {
+    text-decoration: none;
+    color: green;
+}
+
+.content--container {
+    display: inline-block;
+    width: 60%;
+    background-color: beige;
+    height: auto;
+}
