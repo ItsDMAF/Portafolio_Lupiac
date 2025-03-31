@@ -20,6 +20,11 @@ body {
     
     font-size: 4rem;
 }
+
+.navbar--container h3 {
+    color: gray;
+    text-align: center;
+}
 .navbar--option {
     align-items: center;
 }
@@ -35,4 +40,9 @@ body {
     width: 60%;
     background-color: beige;
     height: auto;
+}
+
+.art--section {
+    display: block;
+
 }
