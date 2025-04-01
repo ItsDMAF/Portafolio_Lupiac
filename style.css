@@ -40,9 +40,13 @@ body {
     width: 60%;
     background-color: beige;
     height: auto;
+    align-items: center;
 }
 
 .art--section {
-    display: block;
+   align-items:  center;
+}
+.art--section img{
+    width: 40%;
 
 }
