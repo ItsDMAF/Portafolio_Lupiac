@@ -13,8 +13,6 @@ body {
     width: 40%;
     height: 100%;
     background-color: aliceblue;
-    border-right: 4px;
-    border-color: black;
 }
 
 .navbar--container h1 {
@@ -46,9 +44,9 @@ body {
     background-color: beige;
     height: auto;
     text-align: center;
-
 }
 
+/* ART SECTIONS CSS */
 .art--section {
     background-color: blueviolet;
     
