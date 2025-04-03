@@ -16,7 +16,6 @@ body {
 }
 
 .navbar--container h1 {
-
     font-size: 4rem;
 }
 
@@ -44,6 +43,11 @@ body {
     background-color: beige;
     height: auto;
     text-align: center;
+}
+
+.content--container h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 /* ART SECTIONS CSS */
