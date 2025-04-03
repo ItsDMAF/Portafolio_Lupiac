@@ -1,18 +1,17 @@
 body {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0px;
+    margin: 0px;
     background-color: brown;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.main--container {
-    display: flex;
-}
-
+/* NAVBAR CSS */
 .navbar--container {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
     width: 40%;
-    height: max-content;
+    height: 100%;
     background-color: aliceblue;
     border-right: 4px;
     border-color: black;
@@ -38,9 +37,11 @@ body {
     font-size: 3rem;
 }
 
+/* CONTENT CSS */
 .content--container {
     display: flex;
     flex-direction: column;
+    margin-left: 40%;
     width: 60%;
     background-color: beige;
     height: auto;
