@@ -38,7 +38,7 @@ body {
 .titular--container {
     display: flex;
     width: 60%;
-    height: 15%;
+    height: 120px;
     position: fixed;
     background-color: aquamarine;
 }
@@ -67,7 +67,7 @@ body {
 
 /* PORTFOLIO CSS */
 .art--container {
-    margin-top: 10%;
+    margin-top: 120px;
 }
 
 .art--section {
@@ -77,12 +77,25 @@ body {
 
 .art--section img {
     width: 40%;
-    padding: 10px;
+    padding: 15px;
  
 }
 
-/* SERVICE CSS */
+/* SOBRE CSS */
+.sobre--conteiner {
+    margin-top: 120px;
+}
 
+.sobre--conteiner img {
+    width: 40%;
+}
+
+/* CONTACTO CSS */
+.contacto--conteiner {
+    margin-top: 120px;
+}
+
+/* SERVICE CSS */
 .service--container {
-    margin-top: 10%;
+    margin-top: 120px;
 }
