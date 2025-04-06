@@ -34,6 +34,21 @@ body {
     font-size: 3rem;
 }
 
+/* TITULAR CSS */
+.titular--container {
+    display: flex;
+    width: 60%;
+    height: 15%;
+    position: fixed;
+    background-color: aquamarine;
+}
+.titular--container h1 {
+    font-size: 4rem;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-left: 60px
+}
+
 /* CONTENT CSS */
 .content--container {
     display: flex;
@@ -51,6 +66,10 @@ body {
 }
 
 /* PORTFOLIO CSS */
+.art--container {
+    margin-top: 10%;
+}
+
 .art--section {
     background-color: blueviolet;
     
@@ -61,3 +80,4 @@ body {
     padding: 10px;
  
 }
+
