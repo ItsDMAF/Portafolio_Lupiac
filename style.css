@@ -96,11 +96,13 @@ body {
 }
 
 .contacto--conteiner p{
-    font-size: 2rem;
+    font-size: 2rem;   
 }
 
 .contacto--conteiner a {
     font-size: 2rem;
+    text-decoration: none;
+    color: green;
 }
 
 /* SERVICE CSS--------------------------------------------------- */
