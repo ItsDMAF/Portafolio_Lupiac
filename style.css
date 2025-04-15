@@ -102,6 +102,7 @@ body {
 .contacto--conteiner a {
     font-size: 2rem;
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 /* SERVICE CSS--------------------------------------------------- */
