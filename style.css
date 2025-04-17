@@ -1,111 +1,109 @@
 body {
-    padding: 0px;
-    margin: 0px;
-    background-color: brown;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: brown;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* NAVBAR CSS */
 .navbar--container {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    width: 40%;
-    height: 100%;
-    background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  background-color: aliceblue;
 }
 
 .navbar--container h1 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .navbar--container h3 {
-    color: gray;
-    text-align: center;
+  color: gray;
+  text-align: center;
 }
 
 .navbar--option {
-    align-items: center;
+  align-items: center;
 }
 
 .navbar--option a {
-    text-decoration: none;
-    color: green;
-    font-size: 3rem;
+  text-decoration: none;
+  color: green;
+  font-size: 3rem;
 }
 
 /* TITULAR CSS */
 .titular--container {
-    display: flex;
-    width: 60%;
-    height: 120px;
-    position: fixed;
-    background-color: aquamarine;
+  display: flex;
+  width: 60%;
+  height: 120px;
+  position: fixed;
+  background-color: aquamarine;
 }
 .titular--container h1 {
-    font-size: 4rem;
-    text-align: left;
-    margin-bottom: 10px;
-    padding-left: 60px
+  font-size: 4rem;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-left: 60px;
 }
 
 /* CONTENT CSS */
 .content--container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40%;
-    width: 60%;
-    background-color: beige;
-    height: auto;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  width: 60%;
+  background-color: beige;
+  height: auto;
+  text-align: center;
 }
 
 .content--container h2 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 /* PORTFOLIO CSS---------------------------------------------- */
 .art--container {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .art--section {
-    background-color: blueviolet;
-    
+  background-color: blueviolet;
 }
 
 .art--section img {
-    width: 40%;
-    padding: 15px;
- 
+  width: 40%;
+  padding: 15px;
 }
 
 /* SOBRE CSS--------------------------------------------------- */
 .sobre--conteiner {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .sobre--conteiner img {
-    width: 40%;
+  width: 40%;
 }
 
 /* CONTACTO CSS------------------------------------------------- */
 .contacto--conteiner {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
-.contacto--conteiner p{
-    font-size: 2rem;   
+.contacto--conteiner p {
+  font-size: 2rem;
 }
 
 .contacto--conteiner a {
-    font-size: 2rem;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+  font-size: 2rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 /* SERVICE CSS--------------------------------------------------- */
 .service--container {
-    margin-top: 120px;
+  margin-top: 120px;
 }
