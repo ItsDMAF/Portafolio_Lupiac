@@ -16,7 +16,9 @@ body {
 }
 
 .navbar--container h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
 .navbar--container h3 {
@@ -24,16 +26,22 @@ body {
   text-align: center;
 }
 
-.navbar--option {
-  align-items: center;
+.navbar--container ul {
+  list-style-type: none;
 }
 
 .navbar--option a {
   text-decoration: none;
-  color: green;
-  font-size: 3rem;
 }
 
+.navbar--option p {
+  color: green;
+  font-size: 3rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*--------------------------------------------------------------*/
 /* TITULAR CSS */
 .titular--container {
   display: flex;
