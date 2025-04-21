@@ -147,10 +147,10 @@ body {
 /* CONTACTO CSS------------------------------------------------- */
 .contacto--conteiner {
   margin-top: 120px;
+  padding: 20px;
 }
 
 .contacto--conteiner p {
-  padding-left: 40px;
   font-size: 2rem;
   text-align: left;
 }
@@ -169,7 +169,9 @@ body {
 /* SERVICE CSS--------------------------------------------------- */
 .service--container {
   margin-top: 120px;
-}
+  text-align: left;
+  padding: 20px;
+} 
 
 .service--card p {
   font-size: 2rem;
