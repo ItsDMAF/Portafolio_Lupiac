@@ -23,7 +23,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   align-self: flex-start;
-
 }
 
 .navbar--container h1 {
@@ -51,6 +50,10 @@ body {
   font-size: 3rem;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.navbar--option P:hover {
+  transform: scale(1.15);
 }
 
 /*--------------------------------------------------------------*/
@@ -113,10 +116,32 @@ body {
 /* SOBRE CSS--------------------------------------------------- */
 .sobre--conteiner {
   margin-top: 120px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 }
 
 .sobre--conteiner img {
   width: 40%;
+}
+
+.information--conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.information--conteiner h1 {
+  font-size: 3rem;
+  margin: 0px;
+  text-align: center;
+}
+
+.information--conteiner p {
+  font-size: 2rem;
+  text-align: justify;
 }
 
 /* CONTACTO CSS------------------------------------------------- */
@@ -144,4 +169,8 @@ body {
 /* SERVICE CSS--------------------------------------------------- */
 .service--container {
   margin-top: 120px;
+}
+
+.service--card p {
+  font-size: 2rem;
 }
