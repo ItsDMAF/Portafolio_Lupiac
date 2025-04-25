@@ -126,6 +126,7 @@ body {
 .sobre--conteiner img {
   float: left;
   width: 40%;
+  margin-right: 10px;
 }
 
 .information--conteiner h1 {
@@ -137,6 +138,7 @@ body {
 .information--conteiner p {
   font-size: 2rem;
   text-align: justify;
+  margin: 0px;
 }
 
 /* CONTACTO CSS------------------------------------------------- */
