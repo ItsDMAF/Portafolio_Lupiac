@@ -70,7 +70,7 @@ body {
   font-size: 4rem;
   text-align: left;
   margin-bottom: 10px;
-  padding-left: 60px;
+  padding-left: 20px;
 }
 
 /* CONTENT CSS */
@@ -132,12 +132,13 @@ body {
 .information--conteiner h1 {
   font-size: 3rem;
   margin: 0px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 .information--conteiner p {
   font-size: 2rem;
-  text-align: justify;
+  text-align: center;
   margin: 0px;
 }
 
