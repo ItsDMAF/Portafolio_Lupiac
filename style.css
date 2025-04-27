@@ -171,6 +171,16 @@ body {
   padding: 20px;
 } 
 
+.service--card {
+  margin-bottom: 20px;
+}
+
+.service--card h2 {
+  font-size: 3rem;
+  margin: 0px;
+}
+
 .service--card p {
   font-size: 2rem;
+  margin: 0px;
 }
