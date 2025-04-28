@@ -18,6 +18,7 @@ body {
   background-color: aliceblue;
   justify-content: space-between;
   align-items: center;
+  border-right: solid 10px black;
 }
 
 .navigation--container {
@@ -66,7 +67,10 @@ body {
   width: 60%;
   height: 120px;
   position: fixed;
-  background-color: aquamarine;
+  background-color: aliceblue;
+  border-left: solid 10px black;
+  border-bottom: solid 10px black;
+
 }
 
 .titular--container h1 {
@@ -82,7 +86,7 @@ body {
   flex-direction: column;
   margin-left: 40%;
   width: 60%;
-  background-color: beige;
+  background-color: aliceblue;
   text-align: center;
 }
 
@@ -94,10 +98,10 @@ body {
 /* PORTFOLIO CSS---------------------------------------------- */
 .art--container {
   margin-top: 120px;
-}
+} 
 
 .art--section {
-  background-color: blueviolet;
+  background-color: aliceblue;
   display: flex;
 }
 
@@ -197,4 +201,3 @@ body {
 .service--info {
   min-height: 100px;
 }
-

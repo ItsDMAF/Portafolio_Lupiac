@@ -1,1 +1,2 @@
-
+// Color Scheme
+// #D8D4F2, #C4B2BC, #A29587, #846C5B, #332E3C
