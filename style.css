@@ -35,7 +35,7 @@ body {
 }
 
 .navbar--container h3 {
-  color: #A29587;
+  color: #e7e7e7;
   text-align: center;
 }
 
@@ -195,10 +195,9 @@ body {
   margin: 0px;
 }
 
-.service--card img {
+.service--card i {
   float: left;
-  width: 100px;
-  height: auto;
+  font-size: 4rem;
 }
 
 .service--info {
