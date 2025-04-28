@@ -97,10 +97,11 @@ body {
 /* PORTFOLIO CSS---------------------------------------------- */
 .art--container {
   margin-top: 120px;
+  padding-left: 10px;
 } 
 
 .art--container h2 {
-  color: #332E3C
+  color: #332E3C;
 }
 
 .art--section {
@@ -130,12 +131,15 @@ body {
   height: 100%;
   justify-content: center;
   align-items: flex-start;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 30px;
 }
 
 .sobre--conteiner img {
   float: left;
-  width: 40%;
+  width: 45%;
   margin-right: 10px;
 }
 
@@ -144,12 +148,14 @@ body {
   margin: 0px;
   margin-bottom: 10px;
   text-align: center;
+  color: #332E3C;
 }
 
 .information--conteiner p {
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
   margin: 0px;
+  color: #332E3C;
 }
 
 /* CONTACTO CSS------------------------------------------------- */
@@ -161,13 +167,25 @@ body {
 .contacto--conteiner p {
   font-size: 2rem;
   text-align: left;
+  color: #332E3C;
 }
 
 .contacto--conteiner a {
   font-size: 2rem;
   text-decoration: none;
   align-items: left;
-  color: rgb(0, 0, 0);
+  color: #332E3C;
+}
+
+.contacto--conteiner i {
+  font-size: 2rem;
+  text-decoration: none;
+  align-items: left;
+  color: #332E3C;
+}
+
+.contacto--conteiner h2 {
+  color: #332E3C;
 }
 
 .email--conteiner {
@@ -188,16 +206,19 @@ body {
 .service--card h2 {
   font-size: 3rem;
   margin: 0px;
+  color: #332E3C;
 }
 
 .service--card p {
   font-size: 2rem;
   margin: 0px;
+  color: #332E3C;
 }
 
 .service--card i {
   float: left;
   font-size: 4rem;
+  color: #332E3C;
 }
 
 .service--info {
