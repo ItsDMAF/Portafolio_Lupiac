@@ -189,6 +189,12 @@ body {
 }
 
 .service--card img {
-  width: 150px;
+  float: left;
+  width: 100px;
   height: auto;
 }
+
+.service--info {
+  min-height: 100px;
+}
+
