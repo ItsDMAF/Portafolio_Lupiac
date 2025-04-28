@@ -1,6 +1,3 @@
-
-
-
 body {
   padding: 0px;
   margin: 0px;
@@ -15,10 +12,10 @@ body {
   position: fixed;
   width: 40%;
   height: 100%;
-  background-color: aliceblue;
+  background-color: #D8D4F2;
   justify-content: space-between;
   align-items: center;
-  border-right: solid 10px black;
+  border-right: solid 10px #332E3C;
 }
 
 .navigation--container {
@@ -34,10 +31,11 @@ body {
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #332E3C;
 }
 
 .navbar--container h3 {
-  color: gray;
+  color: #A29587;
   text-align: center;
 }
 
@@ -50,7 +48,7 @@ body {
 }
 
 .navbar--option p {
-  color: green;
+  color: rgb(93, 77, 142);
   font-size: 3rem;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -67,13 +65,14 @@ body {
   width: 60%;
   height: 120px;
   position: fixed;
-  background-color: aliceblue;
-  border-left: solid 10px black;
-  border-bottom: solid 10px black;
+  background-color: #D8D4F2;
+  border-left: solid 10px #332E3C;
+  border-bottom: solid 10px #332E3C;
 
 }
 
 .titular--container h1 {
+  color: rgb(93, 77, 142);
   font-size: 4rem;
   text-align: left;
   margin-bottom: 10px;
@@ -86,7 +85,7 @@ body {
   flex-direction: column;
   margin-left: 40%;
   width: 60%;
-  background-color: aliceblue;
+  background-color: #D8D4F2;
   text-align: center;
 }
 
@@ -100,8 +99,12 @@ body {
   margin-top: 120px;
 } 
 
+.art--container h2 {
+  color: #332E3C
+}
+
 .art--section {
-  background-color: aliceblue;
+  background-color: #D8D4F2;
   display: flex;
 }
 
