@@ -131,7 +131,8 @@ body {
 .art--section img {
   width: 90%;
   height: auto;
-  padding: 15px;
+  border: solid 10px #332E3C;
+  margin-bottom: 25px;
 }
 
 /* SOBRE CSS--------------------------------------------------- */
@@ -149,8 +150,9 @@ body {
 
 .sobre--conteiner img {
   float: left;
-  width: 45%;
+  width: 43%;
   margin-right: 10px;
+  border: solid 10px #332E3C;
 }
 
 .information--conteiner h1 {
@@ -166,6 +168,41 @@ body {
   text-align: left;
   margin: 0px;
   color: #332E3C;
+}
+
+/* SERVICE CSS--------------------------------------------------- */
+.service--container {
+  margin-top: 120px;
+  text-align: left;
+  padding: 20px;
+} 
+
+.service--card {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.service--card h2 {
+  font-size: 3rem;
+  margin: 0px;
+  color: #332E3C;
+}
+
+.service--card p {
+  font-size: 2rem;
+  margin: 0px;
+  color: #332E3C;
+}
+
+.service--card i {
+  font-size: 4rem;
+  color: #332E3C;
+  margin-right: 40px;
+}
+
+.service--info {
+  min-height: 100px;
 }
 
 /* CONTACTO CSS------------------------------------------------- */
@@ -201,38 +238,4 @@ body {
 .email--conteiner {
   text-align: left;
   padding-left: 40px;
-}
-/* SERVICE CSS--------------------------------------------------- */
-.service--container {
-  margin-top: 120px;
-  text-align: left;
-  padding: 20px;
-} 
-
-.service--card {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.service--card h2 {
-  font-size: 3rem;
-  margin: 0px;
-  color: #332E3C;
-}
-
-.service--card p {
-  font-size: 2rem;
-  margin: 0px;
-  color: #332E3C;
-}
-
-.service--card i {
-  font-size: 4rem;
-  color: #332E3C;
-  margin-right: 40px;
-}
-
-.service--info {
-  min-height: 100px;
 }
