@@ -12,10 +12,10 @@ body {
   position: fixed;
   width: 40%;
   height: 100%;
-  background-color: #D8D4F2;
+  background-color: #d8d4f2;
   justify-content: space-between;
   align-items: center;
-  border-right: solid 10px #332E3C;
+  border-right: solid 10px #332e3c;
 }
 
 .navigation--container {
@@ -31,7 +31,7 @@ body {
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #332E3C;
+  color: #332e3c;
 }
 
 .navbar--container h3 {
@@ -66,9 +66,9 @@ body {
   width: 60%;
   height: 120px;
   position: fixed;
-  background-color: #D8D4F2;
-  border-bottom: solid 10px #332E3C;
-  border-left: solid 10px #332E3C;
+  background-color: #d8d4f2;
+  border-bottom: solid 10px #332e3c;
+  border-left: solid 10px #332e3c;
 }
 
 .titular--container h1 {
@@ -85,7 +85,7 @@ body {
   flex-direction: column;
   margin-left: 40%;
   width: 60%;
-  background-color: #D8D4F2;
+  background-color: #d8d4f2;
   text-align: center;
 }
 
@@ -98,15 +98,15 @@ body {
 .art--container {
   margin-top: 120px;
   padding-left: 10px;
-} 
+}
 
 .art--container h2 {
   font-size: 3rem;
-  color: #332E3C;
+  color: #332e3c;
 }
 
 .art--section {
-  background-color: #D8D4F2;
+  background-color: #d8d4f2;
   display: flex;
 }
 
@@ -122,7 +122,7 @@ body {
 .art--section img {
   width: 90%;
   height: auto;
-  border: solid 10px #332E3C;
+  border: solid 10px #332e3c;
   margin-bottom: 25px;
 }
 
@@ -143,7 +143,7 @@ body {
   float: left;
   width: 43%;
   margin-right: 10px;
-  border: solid 10px #332E3C;
+  border: solid 10px #332e3c;
 }
 
 .information--conteiner h1 {
@@ -151,14 +151,14 @@ body {
   margin: 0px;
   margin-bottom: 10px;
   text-align: center;
-  color: #332E3C;
+  color: #332e3c;
 }
 
 .information--conteiner p {
   font-size: 2.5rem;
   text-align: left;
   margin: 0px;
-  color: #332E3C;
+  color: #332e3c;
 }
 
 /* SERVICE CSS--------------------------------------------------- */
@@ -166,7 +166,7 @@ body {
   margin-top: 120px;
   text-align: left;
   padding: 20px;
-} 
+}
 
 .service--card {
   margin-bottom: 20px;
@@ -177,18 +177,18 @@ body {
 .service--card h2 {
   font-size: 3rem;
   margin: 0px;
-  color: #332E3C;
+  color: #332e3c;
 }
 
 .service--card p {
   font-size: 2rem;
   margin: 0px;
-  color: #332E3C;
+  color: #332e3c;
 }
 
 .service--card i {
   font-size: 4rem;
-  color: #332E3C;
+  color: #332e3c;
   margin-right: 40px;
 }
 
@@ -205,25 +205,25 @@ body {
 .contacto--conteiner p {
   font-size: 2rem;
   text-align: left;
-  color: #332E3C;
+  color: #332e3c;
 }
 
 .contacto--conteiner a {
   font-size: 2rem;
   text-decoration: none;
   align-items: left;
-  color: #332E3C;
+  color: #332e3c;
 }
 
 .contacto--conteiner i {
   font-size: 2rem;
   text-decoration: none;
   align-items: left;
-  color: #332E3C;
+  color: #332e3c;
 }
 
 .contacto--conteiner h2 {
-  color: #332E3C;
+  color: #332e3c;
 }
 
 .email--conteiner {
@@ -237,27 +237,31 @@ footer {
 }
 
 @media screen and (max-width: 820px) {
-  
-
   .navbar--container {
     display: flex;
     flex-direction: row;
     position: fixed;
     width: 100%;
-    height: 150px;
-    background-color: #D8D4F2;
+    height: 120px;
+    background-color: #d8d4f2;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid 10px #332E3C;
+    border-bottom: solid 10px #332e3c;
     z-index: 1;
   }
 
   .navigation--container {
     display: flex;
-    height: 50%;
+    height: 100%;
     flex-direction: row;
     align-items: flex-start;
     align-self: flex-start;
+  }
+
+  .navigation--container ul {
+    column-count: 2;
+    justify-items: center;
+    padding-left: 0px;
   }
 
   .navbar--container h3 {
@@ -273,19 +277,37 @@ footer {
     flex-direction: column;
     width: 100%;
     margin: 0;
-    background-color: #D8D4F2;
+    background-color: #d8d4f2;
     text-align: center;
   }
 
   footer {
-    display:block;
+    display: block;
     color: #e7e7e7;
   }
+
+  .titular--container {
+    margin-top: 100px;
+    width: 100%;
+    border-left: 0px;
+  }
   
+  .art--container {
+    margin-top: 200px;
+  }
+
+  .sobre--conteiner {
+    margin-top: 220px;
+  }
+
+  .service--container {
+    margin-top: 230px;
+  }
+
+  .contacto--conteiner {
+    margin-top: 200px;
+  }
 }
 
-
-
 @media screen and (max-width: 480px) {
-  
 }
