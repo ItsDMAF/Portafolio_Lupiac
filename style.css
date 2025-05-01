@@ -251,17 +251,13 @@ footer {
   }
 
   .navigation--container {
-    display: flex;
     height: 100%;
     flex-direction: row;
-    align-items: flex-start;
-    align-self: flex-start;
+    align-items: center;
   }
 
   .navigation--container ul {
-    column-count: 2;
-    justify-items: center;
-    padding-left: 0px;
+    padding-left: 200px;
   }
 
   .navbar--container h3 {
@@ -291,7 +287,7 @@ footer {
     width: 100%;
     border-left: 0px;
   }
-  
+
   .art--container {
     margin-top: 200px;
   }
