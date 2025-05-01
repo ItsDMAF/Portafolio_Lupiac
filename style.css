@@ -163,7 +163,7 @@ body {
 
 /* SERVICE CSS--------------------------------------------------- */
 .service--container {
-  margin-top: 120px;
+  margin-top: 140px;
   text-align: left;
   padding: 20px;
 }
@@ -190,6 +190,11 @@ body {
   font-size: 4rem;
   color: #332e3c;
   margin-right: 40px;
+}
+
+.service--icon {
+  width: 100px;
+  margin-left: 10px;
 }
 
 .service--info {
