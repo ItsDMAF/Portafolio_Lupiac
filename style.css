@@ -88,12 +88,19 @@ body {
   }
 
   .navbar--container ul {
-    column-count: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .navbar--option p {
     font-size: 1.5rem;
+    margin-right: 20px;
   }
+}
+
+@media screen and (max-width: 560px) {
+
 }
 
 /*--------------------------------------------------------------*/
