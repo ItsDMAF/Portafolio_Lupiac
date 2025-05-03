@@ -1,7 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #C4BFE7;
+  background-color: #F7F5E4;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
   position: fixed;
   width: 40%;
   height: 100%;
-  background-color: #958EC6;
+  background-color: #5C81D7;
   justify-content: space-between;
   align-items: center;
   border-right: solid 10px #332e3c;
@@ -31,12 +31,13 @@ body {
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 18px;
   color: #332e3c;
 }
 
 .navbar--container h3 {
   font-size: 1.5rem;
-  color: #e7e7e7;
+  color: #BFD4F0;
   text-align: center;
 }
 
@@ -49,7 +50,7 @@ body {
 }
 
 .navbar--option p {
-  color: #5d4d8e;
+  color: #415396;
   font-size: 3rem;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -57,6 +58,7 @@ body {
 
 .navbar--option P:hover {
   transform: scale(1.15);
+  color: #2C3A6F;
 }
 
 @media screen and (max-width: 820px) {
@@ -143,13 +145,13 @@ body {
   width: 60%;
   height: 120px;
   position: fixed;
-  background-color: #B7AFE9;
+  background-color: #D95E6A;
   border-bottom: solid 10px #332e3c;
   border-left: solid 10px #332e3c;
 }
 
 .titular--container h1 {
-  color: #5d4d8e;
+  color: #FAD3DA;
   font-size: 4rem;
   text-align: left;
   margin-bottom: 10px;
@@ -183,7 +185,7 @@ body {
   flex-direction: column;
   margin-left: 40%;
   width: 60%;
-  background-color: #C4BFE7;
+  background-color: #F7F5E4;
   text-align: center;
 }
 
@@ -198,7 +200,7 @@ body {
     flex-direction: column;
     width: 100%;
     margin: 0;
-    background-color: #C4BFE7;
+    background-color: #F7F5E4;
     text-align: center;
   }
 }
@@ -215,7 +217,7 @@ body {
 }
 
 .art--section {
-  background-color: #C4BFE7;
+  background-color: #F7F5E4;
   display: flex;
 }
 
@@ -231,7 +233,7 @@ body {
 .art--section img {
   width: 90%;
   height: auto;
-  border: solid 10px #332e3c;
+  border: solid 7px #332e3c;
   margin-bottom: 25px;
 }
 
@@ -271,7 +273,7 @@ body {
   float: left;
   width: 43%;
   margin-right: 10px;
-  border: solid 10px #332e3c;
+  border: solid 7px #332e3c;
 }
 
 .information--conteiner h1 {
@@ -283,7 +285,7 @@ body {
 }
 
 .information--conteiner p {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: left;
   margin: 0px;
   color: #332e3c;
@@ -391,7 +393,7 @@ body {
 
 .contacto--conteiner a:hover {
   transform: scale(1.15);
-  color: rgb(93, 77, 142);
+  color: #A08B58;
 }
 
 
@@ -400,13 +402,11 @@ body {
   text-decoration: none;
   align-items: left;
   color: #332e3c;
-  margin-bottom: 45px;
-
 }
 
 .contacto--conteiner i:hover {
   transform: scale(1.15);
-  color: rgb(93, 77, 142);
+  color: #A08B58;
 }
 
 .contacto--conteiner h2 {
@@ -437,6 +437,6 @@ footer {
     display: flex;
     width: 100%;
     justify-content: center;
-    color: #8985A4;
+    color: #CEB990;
   }
 }
